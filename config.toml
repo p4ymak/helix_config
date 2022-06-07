@@ -1,0 +1,13 @@
+theme = "sonokai"
+
+[editor]
+line-number = "absolute"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.file-picker]
+hidden = false
