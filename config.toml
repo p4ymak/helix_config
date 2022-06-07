@@ -11,3 +11,7 @@ select = "block"
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+"C-x" = [":sh cargo run"]
+"C-A-x" = [":sh cargo run --release"]
