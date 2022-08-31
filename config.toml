@@ -5,6 +5,7 @@ line-number = "absolute"
 mouse = false
 rulers = [100]
 true-color = true
+cursorline = true
 
 [editor.cursor-shape]
 insert = "bar"
