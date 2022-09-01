@@ -12,6 +12,10 @@ insert = "bar"
 normal = "block"
 select = "block"
 
+[editor.indent-guides]
+render = true
+character = "╎"
+
 [editor.file-picker]
 hidden = false
 
