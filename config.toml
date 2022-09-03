@@ -5,16 +5,16 @@ line-number = "absolute"
 mouse = false
 rulers = [100]
 true-color = true
-# cursorline = true
+cursorline = true
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "block"
 
-# [editor.indent-guides]
-# render = true
-# character = "╎"
+[editor.indent-guides]
+render = true
+character = "╎"
 
 [editor.file-picker]
 hidden = false
