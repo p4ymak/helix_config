@@ -6,6 +6,7 @@ mouse = false
 rulers = [100]
 true-color = true
 cursorline = true
+color-modes = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -31,3 +32,9 @@ display-messages = true
 
 [keys.select]
 "D" = ["extend_to_line_bounds", "delete_selection"]
+
+[keys.insert]
+"left" = "move_char_left"
+"right" = "move_char_right"
+# "down" = "move_line_down"
+# "up" = "move_line_up"
