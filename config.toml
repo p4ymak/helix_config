@@ -25,7 +25,7 @@ display-messages = true
 
 [keys.normal]
 "C-x" = [":sh cargo run"]
-"C-A-x" = [":sh cargo run --release"]
+"C-A-x" = [":sh cargo test"]
 "D" = ["extend_to_line_bounds", "delete_selection"]
 "q" = "no_op"
 "Q" = "no_op"
