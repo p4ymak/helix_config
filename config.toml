@@ -1,4 +1,6 @@
-theme = "sonokai"
+# theme = "sonokai"
+theme = "gruvbox"
+# theme = "catppuccin_macchiato"
 
 [editor]
 line-number = "absolute"
@@ -18,11 +20,23 @@ select = "block"
 render = true
 character = "╎"
 
+[editor.soft-wrap]
+enable = true
+
 [editor.file-picker]
 hidden = false
 
 [editor.lsp]
 display-messages = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["version-control", "diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
 
 [keys.normal]
 "C-x" = [":sh cargo run"]
