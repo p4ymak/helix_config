@@ -30,8 +30,8 @@ hidden = false
 display-messages = true
 
 [editor.statusline]
-left = ["mode", "spinner"]
-center = ["file-name", "version-control"]
+left = ["mode", "spinner", "file-name"]
+center = [version-control"]
 right = ["position", "diagnostics"]
 separator = "│"
 mode.normal = "NORMAL"
