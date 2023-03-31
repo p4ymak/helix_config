@@ -32,7 +32,7 @@ display-messages = true
 [editor.statusline]
 left = ["mode", "spinner"]
 center = ["file-name", "version-control"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+right = ["position", "diagnostics"]
 separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
