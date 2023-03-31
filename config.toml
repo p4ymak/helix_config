@@ -31,7 +31,7 @@ display-messages = true
 
 [editor.statusline]
 left = ["mode", "spinner", "file-name"]
-center = [version-control"]
+center = ["version-control"]
 right = ["position", "diagnostics"]
 separator = "│"
 mode.normal = "NORMAL"
