@@ -45,11 +45,21 @@ mode.select = "SELECT"
 "q" = "no_op"
 "Q" = "no_op"
 
+# Cyrillic doubles for basics
+"р" = "move_char_left"
+"д" = "move_char_right"
+"о" = "move_line_down"
+"л" = "move_line_up"
+"ф" = "append_mode"
+"ш" = "insert_mode"
+"Ж" = "command_mode"
+"г" =  "undo"
+"Г" = "redo"
+
+
 [keys.select]
 "D" = ["extend_to_line_bounds", "delete_selection"]
 
 [keys.insert]
 "left" = "move_char_left"
 "right" = "move_char_right"
-# "down" = "move_line_down"
-# "up" = "move_line_up"
