@@ -3,3 +3,5 @@ name = "rust"
 
 [language.config.checkOnSave]
 command = "clippy"
+extraArgs = ["--all-features"]
+
