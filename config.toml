@@ -1,5 +1,6 @@
 # theme = "sonokai"
 theme = "gruvbox"
+# theme = "ferra"
 # theme = "catppuccin_macchiato"
 
 [editor]

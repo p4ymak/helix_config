@@ -1,7 +1,7 @@
 [[language]]
 name = "rust"
+# language-servers = {checkonsave = true, command = "clippy", args = ["--all-features"]}
 
-[language.config.checkOnSave]
+[language-server.rust-analyzer.config.check]
 command = "clippy"
-extraArgs = ["--all-features"]
-
+extraArgs = ["--all-features"] 
